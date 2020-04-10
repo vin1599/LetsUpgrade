@@ -1,5 +1,4 @@
 # Name :- Vinayak Parab
-# Email id :- vinayakparab5626@gmail.com
 
 #list and its defualt functions
 
