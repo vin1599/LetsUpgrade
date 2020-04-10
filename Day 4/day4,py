@@ -1,0 +1,27 @@
+list1 = [1, 3, 5, 4, 7, 5, 1, 8]
+# user_list = []
+# len_list = int(input("enter your length of list : "))
+#
+# for i in range(len_list):
+#     user_input = int(input("enter your " + str(i+1) + ' number : '))
+#     user_list.append(user_input)
+#
+# print(list1)
+# print(user_list)
+
+a = list(map(int, input("enter your list numbers: ").split())) #make sure you use space inbetween numbers
+print(a)
+print(len(a))
+b = 0
+c = 0
+for i in range(len(list1)):
+    if c < len(a):
+        if list1[i] == a[c]:
+            c = c+1
+            b = b+1
+if b == len(a):
+    print("match")
+else:
+    print("not match")
+
+print(list1)
